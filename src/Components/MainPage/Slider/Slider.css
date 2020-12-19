@@ -1,50 +1,16 @@
-.slider{
-    height: 600px;
-    width: 500px;
-    float: right;
-    position: relative;
-    margin-right: 10%;
+.carousel{
+    width: 40%;
 }
-
-.pic1{
-    background-image: url(./images/Classic1.jpg);
-    height: 100%;
-    width: 100%;
+img{
+    height: 20%;
 }
-.pic2{
-    background-image: url(./images/classic2.jpg);
-    height: 100%;
-    width: 100%;
+.carousel-control-next-icon{
+    background-color: black;
 }
-.pic3{
-    background-image: url(./images/Classic3.jpg);
-    height: 100%;
-    width: 100%;
+.carousel-control-prev-icon{
+    background-color: black;
 }
-.pic4{
-    background-image: url(./images/Infinity.jpg);
-    height: 100%;
-    width: 100%;
+.carousel-indicators{
+    background-color: black;
+    opacity: 30%;
 }
-.pic5{
-    background-image: url(./images/Infinity_Glass.jpg);
-    height: 100%;
-    width: 100%;
-}
-.pic6{
-    background-image: url(./images/Infinity_walnut.jpg);
-    height: 100%;
-    width: 100%;
-}
-.pic7{
-    background-image: url(./images/Palermo.jpg);
-    height: 100%;
-    width: 100%;
-}
-.pic8{
-    background-image: url(./images/Shaker_style.jpg);
-    height: 100%;
-    width: 100%;
-}
-
-

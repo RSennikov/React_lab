@@ -13,10 +13,15 @@ const Navigation = () => {
         history.push("/");
         dispatch(logIn())
       }
+    const SearchVideoClick = () =>{
+      history.push("/SearchVideo");
+
+    }  
 
     return(
     <div className = 'Nav'>
     <p>Оформление дверей</p>
+    <button className = 'exitBtn' onClick = {SearchVideoClick}>SearchVideo</button>
     <button className = 'exitBtn' onClick = {handleClick}>Выход</button>
     </div>
     )
