@@ -15,7 +15,6 @@ const Navigation = () => {
       }
     const SearchVideoClick = () =>{
       history.push("/SearchVideo");
-
     }  
 
     return(
